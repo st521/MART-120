@@ -1,0 +1,53 @@
+﻿function setup()
+{
+    createCanvas(500, 600);
+}
+
+function draw()
+{
+    background(30,45,78);
+    textSize(25)
+    text("Skin Walker", 10,80);
+
+    // head
+    fill(225, 204, 150);
+    circle(250,100,175);
+   
+    // eyes
+    strokeWeight(15);
+    fill(0);
+    point(200,85);
+    point(285,85);
+
+    // nose
+    point(245,90);
+    
+    // mouth
+    ellipse(245, 135,120, 45)
+
+    // hair
+    line(130,175,175,50);
+    line(325,50,360,175);
+    // body
+    fill(225, 24, 120);
+    rect(200,185,100,100);
+    
+    // decoration
+    fill(100);
+    triangle(220,280,250,220,280,280)
+    // right arm
+    fill(10, 24, 200);
+    rect(300,195,50,10);
+    // left arm
+    rect(150,195,50,10);
+    // left leg
+    rect(200,285,20,150);
+    // right leg
+    rect(280,285,20,150);
+    
+    fill(120);
+    textSize(30);
+    text("Shane Turner",270,500 );
+
+
+}
