@@ -1,0 +1,59 @@
+﻿function setup()
+{
+    createCanvas(500, 600);
+}
+
+function draw()
+{
+    background(150,70,150);
+    textSize(35)
+    text("Dance Party!", 150,450);
+
+    // head
+    fill(255, 123, 150);
+    circle(250,100,175);
+   
+    // eyes
+    strokeWeight(15);
+    fill(0);
+    point(200,80);
+    point(285,80);
+
+    // nose
+    point(245,100);
+    
+    // mouth
+    ellipse(245, 135, 90, 45)
+
+    // hair
+    line(130,100,175,50);
+    line(325,50,360,100);
+    // body
+    fill(150, 24, 120);
+    rect(200,185,100,150);
+    
+    // limbs
+    // right arm
+    fill(10, 24, 120);
+    rect(300,195,50,10);
+    // left arm
+    rect(150,195,50,10);
+    // left leg
+    rect(200,335,10,50);
+    // right leg
+    rect(290,335,10,50);
+    // right foot
+    rect(300,375,30,10);
+    // left foot
+    rect(165,375,30,10);
+    // right forearm
+    rect(350,195,10,50);
+    // left forearm
+    rect(150,155,10,50);
+    
+    fill(120);
+    textSize(22);
+    text("Shane Turner",270,500 );
+
+
+}
